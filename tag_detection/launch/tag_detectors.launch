@@ -1,0 +1,10 @@
+<launch>
+  <arg name="uav_prefix" default="uav1"/>
+  
+  <node pkg="apriltag_ros" type="continuous_detector" name="apriltag_detector" output="screen">
+    <rosparam command="load" file="$(find tag_detection)/config/tags.yaml"/>
+    <remap from="image_rect" to="$(arg uav_prefix)/camera/image_raw"/>
+    <remap from="camera_info" to="$(arg uav_prefix)/camera/camera_info"/>
+    <param name="camera_frame" value="$(arg uav_prefix)/camera_link"/>
+  </node>
+</launch>

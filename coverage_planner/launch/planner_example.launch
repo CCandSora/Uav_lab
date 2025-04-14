@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find coverage_planner)/config/area.yaml"/>
+  <node pkg="coverage_planner" type="coverage_planner_node.py" name="coverage_planner" output="screen"/>
+</launch>
