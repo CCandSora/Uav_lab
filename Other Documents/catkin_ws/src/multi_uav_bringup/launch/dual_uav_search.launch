@@ -1,0 +1,28 @@
+<launch>
+  <!-- 启动Gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find simulation_world)/worlds/dual_uav_world.world"/>
+    <arg name="paused" value="true"/>
+  </include>
+
+  <!-- 生成无人机 -->
+  <include file="$(find xtdrone)/launch/multi_rotors.launch">
+    <arg name="vehicle" value="iris_downward_depth_camera"/>
+    <arg name="num" value="2"/>
+  </include>
+
+  <!-- 启动规划节点 -->
+  <include file="$(find coverage_planner)/launch/planner_example.launch">
+    <arg name="uav_id" value="1"/>
+  </include>
+  <include file="$(find coverage_planner)/launch/planner_example.launch">
+    <arg name="uav_id" value="2"/>
+  </include>
+
+  <!-- 启动AprilTag检测 -->
+  <include file="$(find tag_detection)/launch/tag_detectors.launch" ns="uav1"/>
+  <include file="$(find tag_detection)/launch/tag_detectors.launch" ns="uav2"/>
+
+  <!-- 启动协调节点 -->
+  <node pkg="coordination" type="coordinator_node.py" name="coordinator" output="screen"/>
+</launch>

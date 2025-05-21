@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/install
+
+Name: xtd_tutorial
+Description: Description of xtd_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

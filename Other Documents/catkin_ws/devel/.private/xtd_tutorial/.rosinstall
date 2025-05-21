@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cc/catkin_ws/devel/.private/xtd_tutorial/setup.sh

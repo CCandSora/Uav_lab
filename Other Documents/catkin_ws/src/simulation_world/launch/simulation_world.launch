@@ -1,0 +1,11 @@
+<launch>
+  <!-- 启动Gazebo并载入世界文件 -->
+  <arg name="world_name" default="$(find simulation_world)/worlds/uav_search_world.world"/>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_name)"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+  </include>
+</launch>
+

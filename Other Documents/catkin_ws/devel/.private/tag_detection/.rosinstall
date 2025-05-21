@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cc/catkin_ws/devel/.private/tag_detection/setup.sh

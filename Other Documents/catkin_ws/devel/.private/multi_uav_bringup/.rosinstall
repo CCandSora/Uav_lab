@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cc/catkin_ws/devel/.private/multi_uav_bringup/setup.sh

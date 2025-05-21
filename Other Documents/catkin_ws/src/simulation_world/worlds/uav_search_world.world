@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="uav_search_world">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- 插入AprilTag模型 -->
+    <include>
+      <uri>model://apriltag_marker</uri>
+      <pose>5 5 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>
+

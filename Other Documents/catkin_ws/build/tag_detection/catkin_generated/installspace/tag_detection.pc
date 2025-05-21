@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/install
+
+Name: tag_detection
+Description: Description of tag_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

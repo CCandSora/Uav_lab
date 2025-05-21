@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cc/catkin_ws/devel/.private/coverage_planner/setup.sh

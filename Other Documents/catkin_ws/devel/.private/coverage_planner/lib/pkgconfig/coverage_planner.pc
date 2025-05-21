@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/devel/.private/coverage_planner
+
+Name: coverage_planner
+Description: Description of coverage_planner
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

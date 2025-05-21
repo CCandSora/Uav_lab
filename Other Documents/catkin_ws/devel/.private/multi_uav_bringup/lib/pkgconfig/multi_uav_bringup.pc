@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/devel/.private/multi_uav_bringup
+
+Name: multi_uav_bringup
+Description: Description of multi_uav_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

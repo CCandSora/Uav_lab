@@ -1,0 +1,7 @@
+coordination
+/home/cc/catkin_ws/devel/.private/coordination/cmake.lock /home/cc/catkin_ws/devel/./cmake.lock
+/home/cc/catkin_ws/devel/.private/coordination/share/coordination/cmake/coordinationConfig.cmake /home/cc/catkin_ws/devel/share/coordination/cmake/coordinationConfig.cmake
+/home/cc/catkin_ws/devel/.private/coordination/share/coordination/cmake/coordinationConfig-version.cmake /home/cc/catkin_ws/devel/share/coordination/cmake/coordinationConfig-version.cmake
+/home/cc/catkin_ws/devel/.private/coordination/lib/coordination/coordinator_node.py /home/cc/catkin_ws/devel/lib/coordination/coordinator_node.py
+/home/cc/catkin_ws/devel/.private/coordination/lib/coordination/cmake.lock /home/cc/catkin_ws/devel/lib/coordination/cmake.lock
+/home/cc/catkin_ws/devel/.private/coordination/lib/pkgconfig/coordination.pc /home/cc/catkin_ws/devel/lib/pkgconfig/coordination.pc

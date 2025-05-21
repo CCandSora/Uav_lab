@@ -1,0 +1,9 @@
+<launch>
+    <arg name="config_path" default="$(find coverage_planner)/config"/>
+    <param name="coverage_planner/config_path" value="$(arg config_path)" />
+
+    <node pkg="coverage_planner" type="coverage_planner_node.py" name="coverage_planner" output="screen">
+        <rosparam file="$(arg config_path)/area.yaml" command="load"/>
+    </node>
+</launch>
+

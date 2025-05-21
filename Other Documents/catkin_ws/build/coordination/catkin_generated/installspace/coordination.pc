@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/install
+
+Name: coordination
+Description: Description of coordination
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/cc/catkin_ws/install
+
+Name: simulation_world
+Description: Description of simulation_world
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

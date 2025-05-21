@@ -1,0 +1,5 @@
+multi_uav_bringup
+/home/cc/catkin_ws/devel/.private/multi_uav_bringup/cmake.lock /home/cc/catkin_ws/devel/./cmake.lock
+/home/cc/catkin_ws/devel/.private/multi_uav_bringup/share/multi_uav_bringup/cmake/multi_uav_bringupConfig.cmake /home/cc/catkin_ws/devel/share/multi_uav_bringup/cmake/multi_uav_bringupConfig.cmake
+/home/cc/catkin_ws/devel/.private/multi_uav_bringup/share/multi_uav_bringup/cmake/multi_uav_bringupConfig-version.cmake /home/cc/catkin_ws/devel/share/multi_uav_bringup/cmake/multi_uav_bringupConfig-version.cmake
+/home/cc/catkin_ws/devel/.private/multi_uav_bringup/lib/pkgconfig/multi_uav_bringup.pc /home/cc/catkin_ws/devel/lib/pkgconfig/multi_uav_bringup.pc

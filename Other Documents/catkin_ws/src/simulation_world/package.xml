@@ -1,0 +1,14 @@
+<package format="2">
+  <name>simulation_world</name>
+  <version>0.0.1</version>
+  <description>Simulation world and AprilTag setup for UAV search</description>
+
+  <maintainer email="user@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
+

@@ -1,0 +1,7 @@
+area_width: 50             # 搜索区域宽度 (米)
+area_height: 50            # 搜索区域长度 (米)
+grid_step: 5.0             # 栅格步长 (米)
+flight_altitude: 10.0      # 无人机飞行高度 (米)
+origin_x: 0                # 区域起始原点X坐标
+origin_y: 0                # 区域起始原点Y坐标
+
