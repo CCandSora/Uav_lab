@@ -21,3 +21,7 @@ crazyflies:
 2.setup.bash
 3.roslaunch crazyswarm hover_swarm.launch --wait
 4.启动python文件
+
+目前问题：
+1.无法并行运行两个无人机，只能先后运行；
+2.目标区域二分还存在问题
