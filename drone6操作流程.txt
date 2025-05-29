@@ -1,0 +1,30 @@
+第一步：roscore
+第二步：进入scripts文件夹，分别输入以下命令
+# 1. 正方形 4×4
+python3 drone6.py --sim --poly="-2,-2;-2,2;2,2;2,-2"
+
+# 2. 横长矩形 6×4
+python3 drone6.py --sim --poly="-3,-2;-3,2;3,2;3,-2"
+
+# 3. 竖长矩形 4×8
+python3 drone6.py --sim --poly="-2,-4;-2,4;2,4;2,-4"
+
+# 4. 凹形 U 型
+python3 drone6.py --sim --poly="-3,-2;-3,2;-1,2;-1,0;1,0;1,2;3,2;3,-2"
+
+# 5. 梯形
+python3 drone6.py --sim --poly="-3,-2;-2,2;2,2;3,-2"
+
+# 6. 凸五边形
+python3 drone6.py --sim --poly="-3,-1;-2,2;0,3;2,1;3,-2"
+
+# 7. 45° 旋转正方形
+python3 drone6.py --sim --poly="0,-2.828;2.828,0;0,2.828;-2.828,0"
+
+# 8. 三角形
+python3 drone6.py --sim --poly="-2,-2;2,-2;0,2"
+
+第三步：再打开一个终端，输入rviz，map换为world，add添加路径
+
+
+
